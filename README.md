@@ -1,6 +1,8 @@
 # DarkTrace AI - Drug Transaction Detection System
 
-![DarkTrace AI Logo](assets/logo.png)
+<div align="center">
+  <img src="assets/logo.png" alt="DarkTrace AI"  height = "200px" width="200px"/>
+</div>
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)

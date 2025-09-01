@@ -27,6 +27,7 @@ python main.py
 - [Key Features](#-key-features) 
 - [Tech Stack](#-tech-stack)
 - [Installation](#-installation)
+- [Live Demo](#-live-demo)
 - [Project Structure](#-project-structure)
 - [Dataset Information](#-dataset-information)
 - [How It Works](#-how-it-works)
@@ -153,6 +154,18 @@ cd frontend
 npm install
 npm run dev
 ```
+## 🌐 Live Demo
+
+🎯 **Try the live application**: [https://darktrace-ai-varunrathore137.streamlit.app/](https://darktrace-ai-varunrathore137.streamlit.app/)
+
+Experience DarkTrace AI's detection capabilities through our interactive web interface. Upload sample messages or try the pre-loaded examples to see the system in action.
+
+### Demo Features:
+- 📝 Message analysis interface
+- 📊 Real-time risk scoring
+- 🎨 Interactive visualizations  
+- 📈 Detection explanations
+- 🔍 Batch processing demo
 
 ---
 

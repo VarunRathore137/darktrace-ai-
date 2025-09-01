@@ -160,40 +160,42 @@ npm run dev
 
 ```
 darktrace-ai-/
-├── 📂 backend/                 # FastAPI backend services
-│   ├── 📂 api/                # REST API endpoints
-│   ├── 📂 models/             # ML model implementations
-│   ├── 📂 preprocessing/      # Data preprocessing pipelines
-│   ├── 📂 detection/          # Detection algorithms
-│   └── 📂 utils/              # Utility functions
-├── 📂 frontend/               # React dashboard
-│   ├── 📂 src/
-│   │   ├── 📂 components/     # React components
-│   │   ├── 📂 pages/          # Application pages
-│   │   └── 📂 utils/          # Frontend utilities
-│   └── 📂 public/             # Static assets
-├── 📂 data/                   # Dataset and synthetic data
-│   ├── 📂 synthetic/          # Generated training data
-│   ├── 📂 dictionaries/       # Slang and emoji mappings
-│   └── 📂 processed/          # Preprocessed datasets
-├── 📂 models/                 # Trained model artifacts
-│   ├── 📂 checkpoints/        # Model checkpoints
-│   ├── 📂 embeddings/         # Pre-trained embeddings
-│   └── 📂 explainers/         # SHAP explainer objects
-├── 📂 notebooks/              # Jupyter notebooks
-│   ├── data_analysis.ipynb    # Exploratory data analysis
-│   ├── model_training.ipynb   # Model development
-│   └── evaluation.ipynb       # Performance evaluation
-├── 📂 scripts/                # Automation scripts
-│   ├── train_model.py         # Model training script
-│   ├── generate_data.py       # Synthetic data generation
-│   └── deploy.py              # Deployment utilities
-├── 📂 tests/                  # Test suites
-├── 📂 docs/                   # Documentation
-├── docker-compose.yml         # Docker composition
-├── requirements.txt           # Python dependencies
-└── README.md                  # This file
-```
+├── 📄 README.md               # Project documentation
+├── 📄 requirements.txt        # Python dependencies
+├── 📄 main.py                # Main application entry point
+├── 📄 app.py                 # Web application server
+├── 📄 config.py              # Configuration settings
+├── 📄 utils.py               # Utility functions
+├── 📂 data/                  # Dataset and dictionaries
+│   ├── 📄 slang_dictionary.csv    # Drug slang mappings
+│   ├── 📄 emoji_dictionary.csv    # Emoji pattern mappings
+│   └── 📄 synthetic_data.csv      # Generated training data
+├── 📂 models/                # ML model implementations
+│   ├── 📄 detection_model.py      # Main detection algorithms
+│   ├── 📄 text_classifier.py     # Text classification model
+│   ├── 📄 behavioral_analyzer.py # Behavioral pattern analysis
+│   └── 📄 ensemble_model.py      # Model ensemble methods
+├── 📂 preprocessing/         # Data preprocessing
+│   ├── 📄 text_preprocessor.py   # Text cleaning and normalization
+│   ├── 📄 feature_extractor.py   # Feature engineering
+│   └── 📄 data_pipeline.py       # Data processing pipeline
+├── 📂 api/                   # REST API endpoints
+│   ├── 📄 endpoints.py           # API route definitions
+│   ├── 📄 auth.py               # Authentication handlers
+│   └── 📄 schemas.py            # Request/response schemas
+├── 📂 dashboard/             # Web dashboard
+│   ├── 📄 dashboard.py           # Dashboard application
+│   ├── 📄 visualizations.py     # Chart and graph components
+│   └── 📄 static/               # Static assets (CSS, JS)
+├── 📂 tests/                 # Test suites
+│   ├── 📄 test_models.py         # Model testing
+│   ├── 📄 test_api.py            # API testing
+│   └── 📄 test_preprocessing.py  # Pipeline testing
+└── 📂 notebooks/             # Jupyter notebooks
+    ├── 📄 data_analysis.ipynb    # Exploratory analysis
+    ├── 📄 model_training.ipynb   # Model development
+    └── 📄 evaluation.ipynb       # Performance evaluation
+
 
 ---
 

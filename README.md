@@ -4,6 +4,7 @@
   <img src="assets/logo.png" alt="DarkTrace AI"  height = "200px" width="200px"/>
 </div>
 
+
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![AI](https://img.shields.io/badge/AI-Powered-orange)
@@ -11,6 +12,10 @@
 🎯 **AI-Powered Detection of Suspicious Chat & Transaction Patterns on Encrypted Platforms**
 
 DarkTrace AI is a comprehensive machine learning system designed to detect and analyze suspicious drug-related activities on encrypted communication platforms. Trained on synthetic data, this system combines advanced NLP techniques, behavioral analysis, and graph neural networks to identify deceptive patterns in dark web communications.
+
+<img width="872" height="534" alt="image" src="https://github.com/user-attachments/assets/247b32cd-cd61-49c5-9f7a-635fb27c92de" />
+<img width="855" height="647" alt="Screenshot 2026-03-09 180617" src="https://github.com/user-attachments/assets/df1788cc-2fa5-457b-b7bf-dc909efde8af" />
+
 
 ## 🖶 Quick Start
 ```bash

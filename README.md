@@ -44,6 +44,7 @@ python main.py
 - [Ethics & Compliance](#-ethics--compliance)
 - [Performance Metrics](#-performance-metrics)
 - [Contributing](#-contributing)
+- [Future Enhancements](#-future-enhancements)
 - [License](#-license)
 
 ---
@@ -176,6 +177,8 @@ Experience DarkTrace AI's detection capabilities through our interactive web int
 - 🎨 Interactive visualizations  
 - 📈 Detection explanations
 - 🔍 Batch processing demo
+
+  The API will be live at http://127.0.0.1:8000/docs for interactive testing.
 
 ---
 
@@ -601,6 +604,10 @@ isort src/
 # Run type checking
 mypy src/
 ```
+### 🔮 Future Enhancements
+
+- Integrate Apache Airflow for automated daily log batch processing.
+- Containerize the application using Docker for easier cloud deployment (GCP/Azure).
 
 ### 🐛 Bug Reports
 Please use the [GitHub Issues](https://github.com/VarunRathore137/darktrace-ai-/issues) page to report bugs. Include:
